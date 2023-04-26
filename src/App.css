@@ -1,0 +1,53 @@
+.wrapper {
+  width: 1100px;
+}
+
+.image-wrap {
+  display: flex;
+  width: 550px;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+}
+
+.image-wrap-left {
+}
+
+.image-wrap-right {
+  flex-direction: row-reverse;
+}
+
+.image {
+  width: 1100px;
+  height: 733px;
+}
+
+.image-1 {
+  width: 1100px;
+  height: 733px;
+}
+
+.point {
+  background: red;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.point:hover {
+  box-shadow: 0 0 1rem 0 pink;
+}
+
+.selected {
+  position: absolute;
+  height: 400px;
+  width: 200px;
+  top: 400px;
+  left: 100px;
+  background-color: white;
+  border-radius: 4px;
+  z-index: 10;
+}
